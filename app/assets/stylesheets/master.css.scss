@@ -2,3 +2,19 @@
 // so we could put bootstrap imports here
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.navbar {
+  border-radius:0;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background: url('dark_wood.png');
+}
+
+.navbar-inverse a.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  color: white;
+  //having difficulty getting color to change from gray
+}
